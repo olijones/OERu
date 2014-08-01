@@ -1,0 +1,438 @@
+html
+{
+    background-color: #FBFAF6;
+}
+body
+{
+    min-width: 320px;
+}
+div
+{
+    position: relative;
+}
+header
+{
+    background-color: #6FA92E;
+    padding-bottom: 20px;
+}
+header > div:first-child
+{
+    background-color: #FFF;
+    margin-bottom: 20px;
+}
+header p
+{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+header .row a
+{
+    background-color: #FFF;
+    color: #6FA92E;
+}
+header a:hover
+{
+    opacity: 0.6;
+}
+a:hover
+{
+    text-decoration: none;
+}
+h1 .brand img
+{
+    max-width: 450px;
+    width: 100%;
+}
+h1 .brand:hover
+{
+    opacity: 1;
+}
+nav
+{
+    background-color: #649D23;
+}
+nav a
+{
+    color: #D4E3C7;
+    text-align: center;
+    padding: 10px 15px;
+    text-transform: none;
+}
+nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+nav li
+{
+    display: inline;
+    line-height: 40px;
+}
+nav li:hover
+{
+    display: inline;
+    line-height: 40px;
+}
+section
+{
+    background-color: #FBFAF6;
+    min-height: 100px;
+}
+footer
+{
+    background-color: #42484D;
+    color: #868A8D;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}   
+details
+{
+    padding-bottom: 10px;
+}
+details summary::-webkit-details-marker 
+{ 
+    display: none; 
+}
+summary
+{
+    cursor: pointer;
+    outline: none;
+}
+
+.right
+{
+    float: right;
+    margin-top: 55px;
+}
+
+.greenbg {
+    background-color: #649D23;
+    margin-bottom: 50px;
+}
+
+#main
+{
+    padding-bottom: 100px;
+}
+
+/* Social Media */
+#social-media
+{
+    float: right;
+    width: 190px;
+    margin-top: 100px;
+}
+#social-media ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+#social-media li
+{
+    display: inline;
+}
+a.social-icon
+{
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin: 0 5px;
+}
+a.social-icon:hover
+{
+    opacity: 0.6;
+}
+a.facebook
+{
+    background:url(../img/social-icons.png) 0 0;
+}
+a.twitter
+{
+    background:url(../img/social-icons.png) 26px 0;
+}
+a.google-plus
+{
+    background:url(../img/social-icons.png) 74px 0;
+}
+a.linkedin
+{
+    background:url(../img/social-icons.png) 52px 0;
+}
+.cc {
+    margin-left: 10px;
+}
+
+/* Bootstrap Overrides */
+
+#main .row:first-child
+{
+    margin-top: 0;
+}
+
+/* Navigation */
+
+.navbar
+{
+    margin: 0;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus,
+.nav .current a
+{
+    color: #FFF;
+    background-color: #5a9319;
+}
+.navbar-toggle
+{
+    background-color: #6EA72D;
+}
+.navbar-toggle .icon-bar
+{
+    background-color: #FFF;
+}
+
+/* Search */
+.navbar-form
+{
+    max-width: 210px;
+    padding-right: 0;
+}
+.navbar-form input[type=text]
+{
+    max-width: 150px;
+    background: #6FA92E;
+    color: #FFF;
+    border: none;
+}
+.navbar-form input[type=submit]
+{
+    width: 19px;
+    height: 19px;
+    background:url(../img/search.png) 0 0;
+    border: none;
+    margin: 0 0 0 10px;
+    box-shadow: none;
+    padding: 0;
+}
+.navbar-collapse
+{
+    padding-left: 0;
+}
+#SearchResults
+{
+    list-style-type: none;
+    padding: 0;
+}
+#SearchResults li
+{
+    padding-bottom: 20px;
+}
+#SearchResults a h4, #SearchResults a
+{
+    color: #333 !important;
+}
+#SearchResults a h4:hover
+{
+    text-decoration: underline;
+}
+#SearchResults p
+{
+    margin-bottom: 0 !important;
+}
+
+/* Home Page */
+
+#homePage #main .row img
+{
+    margin: 0 auto;
+    display: block;
+}
+#homePage #main .row p
+{
+    margin-bottom: 30px;
+
+}
+
+/* Blog */
+.blogSummary
+{
+    padding-bottom: 10px;
+}
+@media (min-width: 992px)  {
+    footer > div:last-child .row > div:last-child 
+    {
+        text-align: right;
+    }
+}
+@media only screen and (max-width: 992px)
+{
+    #home-carousel .slides img
+    {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    nav
+    {
+        background-color: #6FA92E;
+    }
+    .navbar-collapse
+    {
+        background-color: #649D23;
+        border: none;
+    }
+    .navbar-toggle:hover
+    {
+        background-color: #649D23;
+    }
+    #social-media
+    {
+        float: none;
+        margin: 0 auto;
+    }
+    footer #footer-logo
+    {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    footer p
+    {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    footer #footer-note
+    {
+        margin-top: 0;
+    }
+    footer .col-md-2-override {
+        width: auto;
+    }
+    .row
+    {
+        margin-right: 0;
+    }
+    .video-container
+    {
+        margin-top: 0;
+    }
+    
+    footer > div:last-child .row > div 
+    {
+        text-align: center;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    footer > div:first-child li a
+    {
+        padding: 10px 0;
+    }
+    #homePage #main .row img
+    {
+        margin-top: 20px;
+    }
+    .row
+    {
+        padding-bottom: 30px;
+    }
+    #home-carousel .slides li > div
+    {
+        margin: 0 10px;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .flex-direction-nav .flex-prev
+    {
+        left: -10px !important;
+    }
+    .flex-direction-nav .flex-next
+    {
+        right: -10px !important;
+    }
+    
+}
+
+
+@media only screen and (max-width: 360px)
+{
+
+    #homePage #main .row img
+    {
+        width: 100%;
+    }
+}
+
+
+/* SubFooter */
+/*.SubFooter { padding:10px 0;}*/
+/*.SubFooter a { color: #FFF;}*/
+/* Course Pages */
+
+.no-spacing {margin: 0 !important;}
+.left-zero {padding-left: 0px;}
+
+.course-logo-image img { display: block; width: auto; max-height:200px; margin: 0 auto; }
+
+.course-information {padding: 10px 0;}
+.course-information-title { font-weight: 600 !important;}
+.course-information span { padding:5px 0;}
+.course-information-image { width:100px; height:100px;}
+
+.course-information hr { border-color: #FF675B; opacity: 0.4;}
+.social-icon-course { display: inline-block; }
+.social-icon-course:hover { opacity: 0.5; }
+.course-period { border:solid 2px white; padding: 10px 20px !important; font-size: 18px; text-align: center; font-weight:600; }
+
+.course-list {padding: 10px 0 5px;border-top: solid 1px #eee; border-bottom: solid 1px #eee;}
+.course-list div {padding-left: 0 !important;}
+
+.course-register-button {background-color: #6EA72D !important; text-decoration: none; color: #fff;}
+
+.ScrollContent .thumb { text-decoration: none; color: inherit; }
+.courseSecton { margin:20px 0 40px; }
+.course-content .row span:first-child {text-align: left; margin-bottom:-30px;}
+.course-content .row span:last-child-child { float: right; }
+.course-content .row span:first-child h4 {color:#6EA72D;}
+.course-content .row:nth-child(2) { margin-bottom: 10px; }
+.course-content .row:nth-child(2) p { padding-top: 10px; }
+.course-list div {border-right:solid 1px #eee; text-align: center; }
+.course-list div:last-child {border-right:none;}
+    
+.subscribe-button { top: 20px; position: absolute; right: 20px; }    
+.subscribe-button a { background-color: #6EA72D !important; text-decoration: none; color: #fff; }
+
+@media (min-width: 992px)  {
+    .course-list div:first-child { text-align: left; }
+    .course-register-button {float:right;}
+    .course-list {position: absolute; /*bottom: 0;*/ width: 100%; margin-bottom: 0px !important;}
+    .course-content { position: relative; height: 200px;}
+    
+    .partner-logo-image img {float:right; width: auto; max-height:200px; max-width:100%;}
+    .partner-logo-image {float:right;}
+    .course-content div {text-align: center; border-right:solid 1px #eee;}
+    .course-content div:last-child {border-right:none;}
+    .course-description { padding-right: 50px;}
+    
+}
+@media (min-width: 360px) {
+    .course-logo-image { float:right; }
+    .course-partner-logo { }
+}
+@media (max-width: 860px) {
+    .course-period { margin-right:10px; }
+}
+
+@media (max-width: 425px) {
+    .course-period { margin-bottom:10px; display: block; } 
+}
+
+@media (max-width: 500px) {
+    .subscribe-button { position: relative; margin-bottom: 40px;}
+    .course-content .row span:first-child h4 {text-align: center;}
+}
