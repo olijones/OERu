@@ -102,11 +102,14 @@ summary
 
 .right
 {
+<<<<<<< HEAD
     text-align: right;
 }
 
 .floatright
 {
+=======
+>>>>>>> FETCH_HEAD
     float: right;
     margin-top: 55px;
 }
@@ -116,6 +119,7 @@ summary
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 .paragraphlist {
     margin-bottom: 30px;
 }
@@ -137,6 +141,8 @@ hr {
     padding-right: 20px;
 }
 
+=======
+>>>>>>> FETCH_HEAD
 #main
 {
     padding-bottom: 100px;
@@ -275,7 +281,15 @@ a.linkedin
     margin: 0 auto;
     display: block;
 }
+<<<<<<< HEAD
 
+=======
+#homePage #main .row p
+{
+    margin-bottom: 30px;
+
+}
+>>>>>>> FETCH_HEAD
 
 /* Blog */
 .blogSummary
