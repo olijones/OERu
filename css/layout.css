@@ -113,7 +113,6 @@ summary
 
 .greenbg {
     background-color: #649D23;
-    margin-bottom: 50px;
 }
 
 .paragraphlist {
@@ -138,11 +137,17 @@ hr {
     float: left;
     clear: left;
     padding-right: 20px;
+    height: 36px;
+}
+
+#main li {
+    padding-bottom: 8px;
 }
 
 #main
 {
     padding-bottom: 100px;
+    padding-top: 40px;
 }
 
 /* Social Media */

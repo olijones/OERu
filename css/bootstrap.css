@@ -5016,7 +5016,7 @@ a.list-group-item-danger.active:focus {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-.panel-heading h3 {
+.panel-heading h4 {
   color: #fff;
   margin-bottom: 0px;
 }
