@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
+    <link rel="stylesheet" type="text/css" href="css/colours.css">
     <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,16 +29,14 @@
 <body id="homePage">
 
   <header>
-		  <div>
-		    <div class="container">
-			      <h1>
-              <a class="brand" href="index.html"><img src="images/OERu-logo.png" alt="Open Education Resources university"></a>
-            </h1>
-            <div class="brand floatright">
-              <h3>OCL4Ed</h3>
-            </div>
+    <div>
+      <div class="container">
+        <a class="brand" href="index.html"><img src="images/OP-logo.png" alt="Open Education Resources university"></a>
+          <div class="floatright">
+            <h1>OCL4Ed</h1>
           </div>
       </div>
+    </div>
     <div class="container">
         <nav class="navbar" role="navigation">
           <div class="navbar-header">
@@ -125,16 +124,6 @@
         </nav>
     </div>
   </header>
-  <div class="greenbg">
-    <div class="container">
-      <ol class=" breadcrumb">
-        <li class="active">Home</li>
-        <li><a href="#">Library</a></li>
-        <li><a href="#">Data</a></li>
-      </ol>
-    </div>
-  </div>
-
     
 <section id="main">
   
@@ -148,7 +137,7 @@
         <div class="panel">
           <div class="panel-body">
             <div class="col-md-12">
-              <h3>Peer evaluation</h3>
+              <h1>Peer evaluation</h1>
               <p>Self assessment and peer evaluation are a powerful processes to help internalise and reflect on your learning while providing support to and receiving feedback from your peers.</p>
 
               <p>The OER Foundation was awarded a <a href="#">Google Summer of Code</a> project this year to progress the development of peer evaluation tools for the <a href="#">OERu</a>. OCL4Ed 14.06 is an historic course where we will trial peer evaluation technologies for the first time.</p>
@@ -156,7 +145,7 @@
               <p>The OERu is distinctively open and our technology infrastructure is based entirely on <a href="#">open source software</a>. We subscribe to the open software development philosophy of releasing early so that our community can help test and refine our software tools used to support the OERu. This peer evaluation tool is the first alpha release and may contain bugs and a less than optimal user interface design. Please help us to improve the software by participating in the peer evaluation prototype and providing feedback. You can share feedback on <a href="#">WEnotes</a>, <a href="#">twitter</a> or <a href="#">Google+</a> or directly via <a href="#">email</a>.</p>
               <hr>
 
-              <h4>Overview of the system</h4>
+              <h2>Overview of the system</h2>
               <p>We recommend that all learners submit a <span style="font-weight: 700;">self-assessment</span> for the E-Activities they register for peer evaluation. This will familiarise you with the corresponding assessment rubric <span style="font-weight: 700;">before</span> you evaluate your peers. For this prototype, we encourage learners to submit a minimum of three peer evaluations for each <a href="#">E-Activity</a>. You are free to submit more evaluations if you like. The system will automatically assign registered submissions with the lowest number of evaluations received on your <a href="#">user dashboard</a> to promote an even distribution of peer evaluations.</p><br>
 
             </div>
@@ -171,7 +160,7 @@
           <div class="col-md-4">
             <div class="panel">
               <div class="panel-body">
-            <h4>Submit an E-Activity</h4>
+            <h2>Submit an E-Activity</h2>
             <p>You must register your completed <a href="#">E-Activities</a> and opt in for peer evaluation. During the registration process you will supply the url link for your activity.</p>
             <div class="button">
               <a href="#">Submit Activity</a>
@@ -184,7 +173,7 @@
           <div class="col-md-4">
             <div class="panel">
               <div class="panel-body">
-            <h4>User dashboard</h4>
+            <h2>User dashboard</h2>
             <p>This is the hub of the peer evaluation system where you can view a list of all the activities you have <span style="font-style: italic;;">registered</span>, submit your <span style="font-style: italic;">self-assessments</span>, view the submissions assigned to you for peer evaluation, submit <span style="font-style: italic;">peer evaluations</span> and view evaluations you have <span style="font-style: italic;">completed</span>.</p>
             <div class="button">
               <a href="#">User Dashboard</a>
@@ -196,7 +185,7 @@
           <div class="col-md-4">
             <div class="panel">
               <div class="panel-body">
-            <h4>View all submissions</h4>
+            <h2>View all submissions</h2>
             <p>The peer evaluation system provides two separate pages where you can view all the activities registered and a summary of all the evaluations submitted.</p>
             <div class="button">
                   <a href="#">View Activities</a>
@@ -217,7 +206,7 @@
           <div class="panel">
             <div class="panel-body">
               <div class="col-md-12">
-                <h4>Terms of service</h4>
+                <h2>Terms of service</h2>
                 <p>This peer evaluation prototype will not impact on formal assessment results in any way. By opting to participate in the peer evaluation prototype you acknowledge that all results and comments will be displayed publicly on the course site and that you license all comments under a <a href="#">Creative Commons Attribution 4.0 International</a> license. Please take into account that members of the community will be purposefully posting a variety of answers for testing purposes and these submissions do not necessarily reflect on their ability or expertise relating to the course objectives. Please read the <a href="#">OERu terms of service</a> with regard to our code of conduct for respectful feedback and the right to ban disruptive user accounts for offensive comments.</p>
                 <div class="well">
                   <p>If you have problems, suggestions, or comments on this <span style="font-style: italic;">alpha</span> test of the Peer Evaluation extension for OERu, please <a href="#">email us</a>. Thanks!</p>
@@ -233,7 +222,7 @@
       <div class="col-md-12">
         <ul class="pager">
           <li class="previous"><a href="eactivities.html">&larr; Previous</a></li>
-          <li class="next"><a href="#">Next &rarr;</a></li>
+          <li class="next"><a href="submit_activity.html">Next &rarr;</a></li>
         </ul>
       </div>
     </div>
@@ -251,7 +240,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">OCL4Ed</h4>
+        <h2 class="modal-title" id="myModalLabel">OCL4Ed</h2>
       </div>
       <div class="modal-body">
         <div class="row">
@@ -308,7 +297,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">WikiEducator login</h4>
+        <h2 class="modal-title" id="myModalLabel">WikiEducator login</h2>
       </div>
       <div class="modal-body">
         <form role="form">

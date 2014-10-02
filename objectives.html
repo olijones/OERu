@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/colours.css">
+    <link rel="stylesheet" type="text/css" href="css/colours.css">
     <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -23,7 +24,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
 
 <body id="homePage">
@@ -54,30 +55,30 @@
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="starthere.html">Start Here</a></li>
                   <li><a href="registration.html">Registration</a></li>
-                  <li class="current"><a href="about.html">About</a></li>
+                  <li><a href="about.html">About</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course Guide<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Overview</a></li>
-                  <li><a href="#">Course aims</a></li>
-                  <li><a href="#">Learning environment</a></li>
-                  <li><a href="#">Course structure</a></li>
-                  <li><a href="#">Technologies</a></li>
-                  <li><a href="#">Ways to engage</a></li>
-                  <li><a href="#">Study tips</a></li>
-                  <li><a href="#">Resources</a></li>
+                  <li><a href="courseguide.html">Overview</a></li>
+                  <li><a href="aims.html">Course aims</a></li>
+                  <li><a href="learning_environment.html">Learning environment</a></li>
+                  <li><a href="course_structure.html">Course structure</a></li>
+                  <li><a href="technologies.html">Technologies</a></li>
+                  <li><a href="learning_approach.html">Ways to engage</a></li>
+                  <li><a href="study_tips.html">Study tips</a></li>
+                  <li><a href="resources.html">Resources</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Assessment<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Assessment overview</a></li>
-                  <li><a href="#">Activity types</a></li>
-                  <li><a href="#">Certification for participation</a></li>
-                  <li><a href="#">E-Activities</a></li>
-                  <li><a href="#">Peer Evaluation</a></li>
+                  <li><a href="assessment.html">Assessment overview</a></li>
+                  <li><a href="activitytypes.html">Activity types</a></li>
+                  <li><a href="certificationforparticipation.html">Certification for participation</a></li>
+                  <li><a href="eactivities.html">E-Activities</a></li>
+                  <li><a href="peerevaluation.html">Peer Evaluation</a></li>
                   <li><a href="#">Course assignment</a></li>
                   <li><a href="#">Fees</a></li>
                 </ul>
@@ -94,7 +95,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courseware<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Orientation</a></li>
+                  <li class="current"><a href="objectives.html">Orientation</a></li>
                   <li><a href="#">Why open matters</a></li>
                   <li><a href="#">Defining OER</a></li>
                   <li><a href="#">Copyright</a></li>
@@ -124,13 +125,30 @@
         </nav>
     </div>
   </header>
-    
+  <div class="greenbg">
+    <div class="container">
+      <ol class=" breadcrumb">
+        <li class="active">Objectives</li>
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="PLE.html">Personal learning environment</a></li>
+        <li><a href="create_blog.html">Create blog</a></li>
+        <li><a href="#">Create microblog</a></li>
+        <li><a href="#">E-Activity - Declare yourself</a></li>
+      </ol>
+    </div>
+  </div>
+
 <section id="main">
-  
+
+
+<a data-toggle="modal" data-target="#courseMapmodal">
+  <div class="sidemenu">
+    <span class="glyphicon glyphicon-th-list" style="font-size: 1em;"></span>
+  </div>
+</a>
 
 
   <div class="container">
-    
 
 
     <div class="row">
@@ -138,68 +156,46 @@
         <div class="panel">
           <div class="panel-body">
             <div class="col-md-12">
-              <h1>Interaction technologies and tools</h1>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-8">
-              <p>Open content licensing for educators (OCL4Ed) is an open online course which integrates different technologies to provide a networked learning experience.</p>
-              <p>The course is designed for guided self-study with opportunities for peer-support from your fellow participants and facilitators using microblog, blog and discussion forum posts. The course materials incorporate activities where you will be prompted to share your thoughts and learning using the interaction tools.</p>
-              <p>The OERu free online courses usually attract hundreds of participants worldwide. Meet new friends and share your experiences. You will get the most from this course by sharing your thoughts, ideas and experiences with fellow participants by posting regularly via your microblog and the identified discussion forums. There are numerous prompts embedded in the course materials when to share ideas, or you can post whenever you like. All these interactions are automatically harvested in the course feed which you will find on the <a href="#">learning console</a>.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4">
-                <img class="img-responsive" src="images/400px-Glowing_mouse.jpg" alt="mouse">
-            </div>
-            <div class="col-md-12">
-            <hr>
-              <h2>An overview of the OCL4Ed learning environment</h2>
-              <p>Links to the <span style="font-weight: 700;">learning resources</span> are provided on the <a href="#">learning console</a>. Share your thoughts and ideas with fellow learners using the <span style="font-weight: 700;">interaction tools</span> by posting on <a href="#">WEnotes</a>, <a href="#">twitter</a> or <a href="#">Google+</a> including our <a href="#">Google+ OCL4Ed community</a>. Keep up to date with the <a href="#">live course feed</a> feed. This aggregated feed provides a succinct summary of all the relevant posts from the different interaction technologies.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-              <ol>
-                <li class="paragraphlist">
-                  <p><span style="font-weight: 700;">Learning resources</span></p>
-                  <ul class="textlist">
-                    <li>You can choose to work through the self study learning sequences listed on</li>
-                      <ul>
-                        <li>the <a href="#">learning console</a> and</li>
-                        <li>Open access resources you find on the Internet</li>
-                      </ul>
-                    <li>The question and answer support forum called <a href="#">Ask OERu</a></li>
-                  </ul>
-                </li>
-                <li class="paragraphlist">
-                  <p><span style="font-weight: 700;">Interaction tools</span>  - You can post thoughts and interact with fellow students using:</p>
-                  <ul class="textlist">
-                    <li><span style="font-style: italic;">Microblog posts</span> for short interactions including:</li>
-                      <ul>
-                        <li><a href="#">WENotes</a> (WikiEducator Notes) or</li>
-                        <li><a href="#">Twitter</a> (Remember to include the "#OCL4Ed" tag in your posts.)</li>
-                      </ul>
-                    <li>For more detailed responses use:</li>
-                      <ul>
-                        <li>The <a href="#">Google+ OCL4Ed community</a> or</li>
-                        <li>Personal blog posts (a requirement for participants who will request formal assessment services). (Remember to tag or label your posts using the OCL4Ed category.)</li>
-                      </ul>
-                  </ul>
-                </li>
-                <li class="paragraphlist">
-                  <p><a href="#"><span style="font-weight: 700;">OCL4Ed Aggregated feed</span></a> which generates a timeline of: microblog posts (WENotes & Twitter), discussion forum post in the <a href="#">Google+ OCL4Ed community</a>, and support questions, answers, and comments from Ask OERu. (This is an important resource for gaining an overview of what is happening in the course.)</p>
-                </li>
-              </ol>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <img class="img-responsive" src="images/OCL4Ed-learning-systemV2.png" alt="mouse">
+              <h1>Objectives for the orientation session</h1>
+              <p>The purpose of this learning pathway is to set up the technologies you will use to support your learning and to test that everything is working.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-      
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel">
+          <div class="panel-heading">
+            <div>
+              <img class="pedigogicalicon" src="images/Icon_aims.png">
+            </div>
+            <div>
+              <h2>Key Points</h2>
+            </div>
+          </div>
+          <div class="panel-body">
+          <div class="col-md-12">
+            <p>During this learning pathway you will:</p>
+            <ol>
+              <li><p>be introduced to the concept of a personal learning environment (PLE);</p></li>
+              <li><p>create your own PLE for this course including a blog and microblog account;</p></li>
+              <li><p>familiarise yourself with the learning environment and where to find the learning resources;</p></li>
+              <li><p>declare yourself to fellow participants using your course blog;</p></li>
+              <li><p>practice microblog posts.</p></li>
+            </ol>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-md-12">
         <ul class="pager">
-          <li class="previous"><a href="course_structure.html">&larr; Previous</a></li>
-          <li class="next"><a href="learning_approach.html">Next &rarr;</a></li>
+          <li class="previous"><a href="#">&larr; Previous</a></li>
+          <li class="next"><a href="introduction.html">Next &rarr;</a></li>
         </ul>
       </div>
     </div>
@@ -207,9 +203,41 @@
 
 
   </div>
-
-
 </section>
+
+<!-- User Modal -->
+<div class="modal fade" id="courseMapmodal" tabindex="-1" role="dialog" aria-labelledby="userLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h2 class="modal-title" id="myModalLabel">Course Navigation</h2>
+      </div>
+      <div class="modal-body">
+    <div class="list-group">
+        <a href="objectives.html" class="active list-group-item">
+            Objectives
+        </a>
+        <a href="introduction.html" class="list-group-item">
+            Introduction
+        </a>
+        <a href="PLE.html" class="list-group-item">
+            Personal learning environment
+        </a>
+        <a href="create_blog.html" class="list-group-item">
+            Create blog
+        </a>
+        <a href="#" class="list-group-item">
+            Create microblog
+        </a>
+        <a href="#" class="list-group-item">
+            E-Activity - Declare yourself
+        </a>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Site Map Modal -->
 <div class="modal fade" id="siteMapmodal" tabindex="-1" role="dialog" aria-labelledby="siteMapLabel" aria-hidden="true">
@@ -308,6 +336,6 @@
     </div>
   </div>
 </footer>
-
 </body>
+
 </html>

@@ -1,0 +1,105 @@
+/*
+*	This stylesheet includes the rules relating to all colours on the site, this allows for easy theming. 
+*/
+
+header {
+background-color: #005aab; /* OP */
+/*background-color: #6FA92E; /* OERu */
+}
+.greenbg {
+background-color: #004d92; /* OP */
+/*background-color: #649D23; /* OERu */
+}
+nav {
+background-color: #004d92; /* OP */
+/*background-color: #649D23; /* OERu */
+}
+nav a {
+color: #c2cddd; /* OP */
+/*color: #D4E3C7; /* OERu */
+}
+.breadcrumb a {
+color: #c2cddd; /* OP */
+/*color: #D4E3C7; /* OERu */
+}
+.breadcrumb > li + li:before {
+color: #c2cddd; /* OP */
+/*color: #D4E3C7; /* OERu */
+}
+.nav > li > a:hover, .nav > li > a:focus, .nav .current a {
+background-color: #00417A; /* OP */
+/*background-color: #5a9319; /* OERu */
+}
+.dropdown-menu {
+background-color: #00417A !important;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+color: #c2cddd;
+background-color: #003564; /* OP */
+/*color: #D4E3C7;
+background-color: #5a9319; /* OERu */
+}
+h1 {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+h2 {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+h3 {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+h4 {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+h5 {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+.panel-heading {
+background-color: #005aab; /* OP */
+/*background-color: #6FA92E; /* OERu */
+}
+.pager li > a, .pager li > span {
+border: 1px solid #005aab;
+color: #005aab !important; /* OP */
+/*border: 1px solid #6FA92E;
+color: #6FA92E !important; /* OERu */
+}
+@media only screen and (max-width: 992px) .navbar-collapse {
+background-color: #004d92; /* OP */
+/*background-color: #649D23; /* OERu */
+}
+.navbar-toggle {
+background-color: #005aab; /* OP */
+/*background-color: #6EA72D; /* OERu */
+}
+@media (max-width: 767px)
+.breadcrumb a {
+color: #c2cddd; /* OP */
+/*color: #D4E3C7; /* OERu */
+}
+@media only screen and (max-width: 992px)
+.navbar-toggle:hover {
+background-color: #00417A; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+.panel-default > .panel-heading {
+background-color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
+.button, input[type=submit] {
+border-bottom: 3px solid #004d92; /* OP */
+/*border-bottom: 3px solid #5a9319; /* OERu */
+}
+.button {
+background-color: #005aab; /* OP */
+/*background-color: #6FA92E; /* OERu */
+}
+a {
+color: #6FA92E; /* OP */
+/*color: #428bca; /* OERu */
+}
