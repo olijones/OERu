@@ -184,6 +184,14 @@ a.linkedin
     margin-left: 10px;
 }
 
+.modal-body .col-md-4 {
+    margin-top: 10px;
+}
+
+.modal-body .col-md-6 {
+    margin-top: 10px;
+}
+
 /* Bootstrap Overrides */
 
 #main .row:first-child
