@@ -100,6 +100,11 @@ summary
     float: right;
     margin-top: 55px;
 }
+.brandtext
+{
+    float: left;
+    margin-top: 55px;
+}
 
 .paragraphlist {
     margin-bottom: 30px;
