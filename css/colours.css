@@ -43,6 +43,10 @@ h1 {
 color: #005aab; /* OP */
 /*color: #6FA92E; /* OERu */
 }
+h1 a {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
 h2 {
 color: #005aab; /* OP */
 /*color: #6FA92E; /* OERu */
@@ -100,6 +104,6 @@ background-color: #005aab; /* OP */
 /*background-color: #6FA92E; /* OERu */
 }
 a {
-color: #005aab; /* OP */
-/*color: #6FA92E; /* OERu */
+color: #6FA92E; /* OP */
+/*color: #428bca; /* OERu */
 }
