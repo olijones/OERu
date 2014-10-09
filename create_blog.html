@@ -26,14 +26,13 @@
     <script src="js/bootstrap.js"></script>
 </head>
 
-<body id="homePage">
+<body>
 
   <header>
     <div>
       <div class="container">
-        <a class="brand" href="index.html"><img src="images/OP-logo.png" alt="Open Education Resources university"></a>
-          <div class="floatright">
-            <h1>OCL4Ed</h1>
+          <div class="brandtext">
+            <h1><a href="index.html">OCL4Ed</a></h1>
           </div>
       </div>
     </div>
@@ -124,29 +123,53 @@
         </nav>
     </div>
   </header>
-  <div class="greenbg">
-    <div class="container">
-      <ol class=" breadcrumb">
-        <li><a href="objectives.html">Objectives</a></li>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="PLE.html">Personal learning environment</a></li>
-        <li class="active">Create blog</li>
-        <li><a href="#">Create microblog</a></li>
-        <li><a href="#">E-Activity - Declare yourself</a></li>
-      </ol>
-    </div>
-  </div>
+
     
 <section id="main">
   
-<a data-toggle="modal" data-target="#courseMapmodal">
-  <div class="sidemenu">
-    <span class="glyphicon glyphicon-th-list" style="font-size: 1em;"></span>
-  </div>
-</a>
+
 
   <div class="container">
 
+    <div class="row">
+      <div class="col-md-12">
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="nomargin panel-heading">
+      <h2 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+          <span class="glyphicon glyphicon-th-list"></span>Orientation
+        </a>
+      </h2>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div id="pagenav" class="panel-body">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="objectives.html"><div class="pagenav">1. Objectives</div></a>
+            </div>
+            <div class="col-md-4">
+              <a href="introduction.html"><div class="pagenav">2. Introduction</div></a>
+            </div>
+            <div class="col-md-4">
+              <a href="PLE.html"><div class="pagenav">3. Personal Learning Environment</div></a>
+            </div>
+            <div class="col-md-4">
+              <a href="create_blog.html"><div class="pagenav current">4. Create Blog</div></a>
+            </div>
+            <div class="col-md-4">
+              <a href=""><div class="pagenav">5. Create Microblog</div></a>
+            </div>
+            <div class="col-md-4">
+              <a href=""><div class="pagenav">6. E-Activity - Declare yourself</div></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 
     <div class="row">
       <div class="col-md-12">
@@ -402,13 +425,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <div>Content is available under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License.</a></div>
+        <div class="footertext">Content is available under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution Share-Alike License.</a></div>
+        <div class="footertext"><a href="http://wikieducator.org/WikiEducator:Privacy_policy">Privacy Policy</a> | <a href="http://wikieducator.org/Practice:OCL4Ed?action=history">Authors</a><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img class="cc" src="images/CC-BY-SA.png" alt="Creative Commons Attribution Share-Alike License"></a></div>
       </div>  
       <div class="col-md-6">
-        <div><a href="http://wikieducator.org/WikiEducator:Privacy_policy">Privacy Policy</a> | <a href="http://wikieducator.org/Practice:OCL4Ed?action=history">Authors</a><a href="http://creativecommons.org/licenses/by-sa/3.0/"><img class="cc" src="images/CC-BY-SA.png" alt="Creative Commons Attribution Share-Alike License"></a></div>
+        <img src="images/OP-logo.png" alt="oplogo">
       </div> 
     </div>
   </div>
 </footer>
+
 </body>
 </html>

@@ -115,6 +115,9 @@ summary
     font-weight: 300;
     font-size: 16px;
 }
+.footertext {
+    margin-bottom: 10px;
+}
 .image {
     margin-bottom: 20px !important;
 }
@@ -367,7 +370,7 @@ color: #999;
 
 /* Home Page */
 
-#homePage #main .row img
+#main .row img
 {
     margin: 0 auto;
     display: block;
@@ -545,4 +548,41 @@ color: #999;
 @media (max-width: 500px) {
     .subscribe-button { position: relative; margin-bottom: 40px;}
     .course-content .row span:first-child h4 {text-align: center;}
+}
+.pagenav {
+margin: 1px;
+background-color: #D0E9FF;
+padding: 10px;
+}
+.pagenav:hover {
+opacity: .8;
+}
+.panel-heading #pagenav {
+    margin-bottom: 0px !important;
+}
+.nomargin {
+    margin-bottom: 0px;
+}
+#pagenav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#pagenav a {
+    color: black;
+}
+#pagenav .current {
+background-color: #98D6F6;
+}
+#pagenav .col-md-4 {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+@media (max-width: 992px)  {
+#pagenav {
+padding-right: 0px !important;
+}
+}
+@media only screen and (max-width: 768px) {
+#pagenav, .row {
+padding-bottom: 0px !important;
 }

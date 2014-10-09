@@ -6,6 +6,10 @@ header {
 background-color: #005aab; /* OP */
 /*background-color: #6FA92E; /* OERu */
 }
+.brandtext > h1 a:hover, a:focus {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}
 .greenbg {
 background-color: #004d92; /* OP */
 /*background-color: #649D23; /* OERu */
@@ -21,6 +25,10 @@ color: #c2cddd; /* OP */
 .breadcrumb a {
 color: #c2cddd; /* OP */
 /*color: #D4E3C7; /* OERu */
+}
+.breadcrumb a:hover, a:focus {
+color: #FFF; /* OP */
+/*color: #FFF; /* OERu */
 }
 .breadcrumb > li + li:before {
 color: #c2cddd; /* OP */
@@ -81,13 +89,11 @@ background-color: #004d92; /* OP */
 background-color: #005aab; /* OP */
 /*background-color: #6EA72D; /* OERu */
 }
-@media (max-width: 767px)
-.breadcrumb a {
+@media (max-width: 767px) .breadcrumb a {
 color: #c2cddd; /* OP */
 /*color: #D4E3C7; /* OERu */
 }
-@media only screen and (max-width: 992px)
-.navbar-toggle:hover {
+@media only screen and (max-width: 992px) .navbar-toggle:hover {
 background-color: #00417A; /* OP */
 /*color: #6FA92E; /* OERu */
 }
@@ -106,4 +112,9 @@ background-color: #005aab; /* OP */
 a {
 color: #6FA92E; /* OP */
 /*color: #428bca; /* OERu */
+}
+a:hover,
+a:focus {
+color: #649D23; /* OP */
+/*color: #2a6496; /* OERu */
 }
