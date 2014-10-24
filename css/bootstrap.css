@@ -5041,7 +5041,7 @@ a.list-group-item-danger.active:focus {
   font-size: 20px;
   color: inherit;
 }
-.panel-title, .glyphicon {
+.panel-title .glyphicon {
 margin-right: 10px;
 }
 .panel-title > a {

@@ -118,3 +118,9 @@ a:focus {
 color: #649D23; /* OP */
 /*color: #2a6496; /* OERu */
 }
+.pagenav {
+background-color: #D0E9FF; /* OP */
+}
+#pagenav .current {
+background-color: #98D6F6; /* OP */
+}

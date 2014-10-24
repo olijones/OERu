@@ -26,8 +26,9 @@ h2
 }
 h3
 {
-    font-size: 42px;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
     font-weight: 300 !important;
 }
 h4 a
@@ -203,6 +204,10 @@ color: #FFF;
     h1
     {
         font-size: 32px;
+    }
+    .brandtext
+    {
+        margin-top: 15px;
     }
 }
 
