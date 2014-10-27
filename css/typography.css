@@ -214,7 +214,7 @@ color: #FFF;
 @media only screen and (max-width: 992px) {
     h2
     {
-        font-size: 24px;
+        font-size: 18px;
     }
     h1
     {
@@ -235,13 +235,5 @@ color: #FFF;
     {
         height: 26px;
         margin-top: 0px !important;
-    }
-}
-
-@media (max-width: 400px) {
-    .pedigogicalicon
-    {
-        height: 20% !important;
-        width: 20% !important;
     }
 }

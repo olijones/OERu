@@ -75,11 +75,18 @@ footer
     color: #868A8D;
     padding-top: 30px;
     padding-bottom: 30px;
-}   
-details
-{
-    padding-bottom: 10px;
+}  
+.hint summary {
+  margin-bottom: 5px;
 }
+.hint summary::-webkit-details-marker 
+{ 
+  display: none; 
+}
+.hint, details {
+    margin-bottom: 30px;
+}
+
 details summary::-webkit-details-marker 
 { 
   font-size: 18px;

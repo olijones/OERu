@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/typography.css">
     <link rel="stylesheet" type="text/css" href="css/colours.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -257,10 +258,10 @@
           </div>
           <div class="panel-body">
             <div class="col-md-12">
-              <div class="alert alert-warning alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <strong>Tip!</strong>  Fill in the blanks. Use your cursor or "tab" key to advance to the next answer.
-              </div>
+              <details class="hint">
+                  <summary><i class="fa fa-info-circle"></i> Hint</summary>
+                  <p>Fill in the blanks. Use your cursor or "tab" key to advance to the next answer.</p>
+                </details>
               <ol>
                 <li><p>This edited version of Hamlet by 
                 <input class="form-control has-success input-sm clozequiz" type="text" id="inputSmall"> <input class="form-control has-error input-sm clozequiz" type="text" id="inputSmall">  is a literary work.</p></li>
@@ -289,10 +290,10 @@
           </div>
           <div class="panel-body">
             <div class="col-md-12">
-              <div class="alert alert-warning alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <strong>Tip!</strong>  Submit your answer by clicking either 'Yes' or 'No' below.
-              </div>
+                <details class="hint">
+                  <summary><i class="fa fa-info-circle"></i> Hint</summary>
+                  <p>Submit your answer by clicking either 'Yes' or 'No' below.</p>
+                </details>
               <ol>
                 <li class="paragraphlist mcq">
                   <p>Can Theresa include a verbatim copy of the full text of Hamlet edited by Keans?
@@ -301,7 +302,7 @@
                     <div class="accordian panel-default">
                       <div class="accordian-heading">
                         <p class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> Yes</a>
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-pencil"></span> Yes</a>
                         </p>
                       </div>
                       <div id="collapseTwo" class="panel-collapse collapse">
@@ -313,7 +314,7 @@
                     <div class="accordian panel-default">
                       <div class="accordian-heading">
                         <p class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"> No</a>
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-pencil"></span> No</a>
                         </p>
                       </div>
                       <div id="collapseThree" class="panel-collapse collapse">
@@ -330,7 +331,7 @@
                     <div class="accordian panel-default">
                       <div class="accordian-heading">
                         <p class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"> Yes</a>
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-pencil"></span> Yes</a>
                         </p>
                       </div>
                       <div id="collapseFour" class="panel-collapse collapse">
@@ -342,7 +343,7 @@
                     <div class="accordian panel-default">
                       <div class="accordian-heading">
                         <p class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"> No</a>
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-pencil"></span> No</a>
                         </p>
                       </div>
                       <div id="collapseFive" class="panel-collapse collapse">
