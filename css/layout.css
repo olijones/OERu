@@ -82,12 +82,15 @@ details
 }
 details summary::-webkit-details-marker 
 { 
-    display: none; 
+  font-size: 18px;
 }
 summary
 {
     cursor: pointer;
     outline: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .right

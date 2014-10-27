@@ -124,3 +124,7 @@ background-color: #D0E9FF; /* OP */
 #pagenav .current {
 background-color: #98D6F6; /* OP */
 }
+summary {
+color: #005aab; /* OP */
+/*color: #6FA92E; /* OERu */
+}

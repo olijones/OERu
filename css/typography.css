@@ -123,6 +123,21 @@ input[type=submit]
     padding-left: 20px;
     vertical-align: middle;
 }
+.mcq a{
+color: #005aab;
+}
+.mcq a:hover{
+color: #005aab;
+}
+.correct {
+  color: #6FA92E;
+  font-weight: 700;
+}
+.incorrect {
+  color: #a94442;
+  font-weight: 700;
+}
+
 
 /* Buttons */
 .button
@@ -214,7 +229,7 @@ color: #FFF;
 @media (max-width: 768px) {
     h3, h4
     {
-        font-size: 26px;
+        font-size: 17px;
     }
     .pedigogicalicon
     {
