@@ -39,7 +39,8 @@ background-color: #00417A; /* OP */
 /*background-color: #5a9319; /* OERu */
 }
 .dropdown-menu {
-background-color: #00417A !important;
+background-color: #00417A !important; /* OP */
+/*background-color: #5a9319 !important; /* OERu */
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
 color: #c2cddd;
